@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axial Coat Privacy Policy / プライバシーポリシー</title>
+<style>
+  /* Axial Press の privacy.html と同じ構成。色はアプリの画面（生成り・墨・朱）に揃える */
+  :root { --ink:#1E1E1C; --accent:#B8432F; --line:#C9C3B6; --soft:#6B675E; --paper:#F4F1EA; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI","Meiryo","Yu Gothic UI",system-ui,sans-serif;
+    color: var(--ink); line-height: 1.75; margin: 0;
+    background: var(--paper);
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 32px 22px 64px; }
+  header { border-bottom: 3px solid var(--ink); padding-bottom: 14px; margin-bottom: 8px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; }
+  h1 .brand { font-family: "Bahnschrift","Segoe UI",sans-serif; letter-spacing: 1px; }
+  .meta { color: var(--soft); font-size: .9rem; }
+  .summary { background:#FBF8F1; border:1px solid var(--line); border-left:5px solid var(--accent);
+             border-radius:6px; padding:12px 16px; margin:16px 0; font-weight:600; }
+  h2 { color: var(--accent); font-size: 1.25rem; margin: 40px 0 6px; }
+  h3 { font-size: 1.02rem; margin: 22px 0 4px; border-left: 4px solid var(--accent); padding-left: 8px; }
+  p, li { font-size: .98rem; }
+  code { background:#EFEBE1; padding:1px 6px; border-radius:4px; font-family:Consolas,monospace; font-size:.9em; word-break: break-all; }
+  hr { border:none; border-top:1px solid var(--line); margin:36px 0; }
+  .lang-divider { text-align:center; color:var(--soft); font-size:.85rem; letter-spacing:2px; margin:8px 0; }
+  footer { margin-top: 40px; color: var(--soft); font-size:.85rem; text-align:center; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1><span class="brand">Axial Coat</span> &mdash; プライバシーポリシー / Privacy Policy</h1>
+    <div class="meta">最終更新日 / Last updated: 2026-11-11 ・ 発行者 / Publisher: <strong>G-Works</strong></div>
+  </header>
+
+  <!-- ================= 日本語 ================= -->
+  <h2>日本語</h2>
+
+  <h3>はじめに</h3>
+  <p>Axial Coat（以下「本アプリ」）は、鋼材の塗装面積・塗料の必要量・溶融亜鉛めっきの重量とめっき費を集計する Windows 向けデスクトップアプリです。本ポリシーは、本アプリが利用者の情報をどのように取り扱うかを説明します。</p>
+  <div class="summary">本アプリは個人情報を一切収集・送信・共有しません。すべての処理と保存は利用者のデバイス内（ローカル）でのみ行われます。</div>
+
+  <h3>1. 収集する情報</h3>
+  <ul>
+    <li>本アプリは利用者の個人情報を収集しません。</li>
+    <li>次回起動時に作業環境を復元する目的でのみ、次の設定が利用者のデバイス内（<code>%LOCALAPPDATA%\GWorks\AxialCoat\AxialCoat.ini</code>）へローカル保存されます。
+      <ul>
+        <li>窓の位置・大きさ、仕切りの位置、開いていたタブ</li>
+        <li>表示言語、表示単位、テーマ、断面表（JIS / AISC）、最後に使ったフォルダー</li>
+      </ul>
+    </li>
+    <li>利用者が塗装系のプリセットを登録した場合に限り、その内容（名前・腐食環境区分・期待耐久性・各層の数値）を <code>%LOCALAPPDATA%\GWorks\AxialCoat\paint_presets.json</code> に保存します。</li>
+    <li>利用者が「保存」を選んだ場合に限り、部材リストと塗装・めっきの設定を利用者が指定した場所の <code>*.axcoat</code> ファイルに保存します。</li>
+    <li>これらのファイルは利用者のデバイスから外部へ送信されることはなく、開発者がアクセスすることもできません。</li>
+  </ul>
+
+  <h3>2. 利用目的</h3>
+  <p>上記のローカル保存データは、本アプリの機能（作業環境・プリセット・プロジェクトの保存と復元）を提供する目的にのみ使用します。それ以外の目的では使用しません。</p>
+
+  <h3>3. ネットワーク・オンラインサービス</h3>
+  <p>本アプリは完全にオフラインで動作します。本アプリ自身はインターネット接続を行わず、テレメトリ・利用解析（アナリティクス）・広告・トラッキング・ユーザーアカウントの仕組みを一切含みません。</p>
+  <p>Microsoft Store 版では、試用期間と購入の状態を Windows の Microsoft Store ライセンスの仕組み（Windows の API）に問い合わせます。この問い合わせと購入の手続きは Windows / Microsoft Store が行い、Microsoft のプライバシーに関する声明に従って扱われます。本アプリが利用者の情報をこの問い合わせに加えることはありません。</p>
+  <p>≡ メニューの「ストアでレビューを書く」を選んだ場合に限り、Microsoft Store アプリで本アプリのページを開きます（以後の操作は Microsoft Store が行います）。</p>
+
+  <h3>4. 第三者への提供</h3>
+  <p>本アプリはデータを収集しないため、いかなるデータも第三者へ販売・提供・開示しません。</p>
+
+  <h3>5. 書き出し・印刷について</h3>
+  <p>結果のクリップボードへのコピー、CSV の保存、プロジェクトの保存は、利用者が明示的に操作したときにのみ実行され、書き出し先は利用者が指定した場所です。集計書の表示・印刷では、集計書の HTML を一時フォルダー（<code>%TEMP%\AxialCoat</code>）に書き、利用者の既定のブラウザで開きます。この HTML はインターネットに接続しません。本アプリが外部へ送信することはありません。</p>
+
+  <h3>6. データの保存期間と削除</h3>
+  <p>ローカルの保存ファイルは、本アプリの利用により上書きされるか、利用者が削除するまで保存されます。本アプリをアンインストールし、<code>%LOCALAPPDATA%\GWorks\AxialCoat</code> と <code>%TEMP%\AxialCoat</code> を削除すれば、本アプリが保存したデータはすべて消去されます（利用者が保存した <code>*.axcoat</code>・CSV は利用者が指定した場所に残ります）。</p>
+
+  <h3>7. セキュリティ</h3>
+  <p>データは利用者のデバイス内にのみ保存されるため、その安全性は利用者のデバイスのセキュリティ対策に依存します。</p>
+
+  <h3>8. 子どものプライバシー</h3>
+  <p>本アプリは、子どもを含むいかなる利用者からも情報を収集しません。</p>
+
+  <h3>9. 本ポリシーの変更</h3>
+  <p>本ポリシーは必要に応じて改定することがあります。最新版はこのページに掲載します。</p>
+
+  <h3>10. お問い合わせ</h3>
+  <p>本ポリシーや本アプリに関するお問い合わせ先：<a href="mailto:G.Works.902@gmail.com">G.Works.902@gmail.com</a></p>
+
+  <hr>
+  <div class="lang-divider">— ENGLISH —</div>
+
+  <!-- ================= English ================= -->
+  <h2>English</h2>
+
+  <h3>Introduction</h3>
+  <p>Axial Coat ("the App") is a Windows desktop application that totals the paint area, paint quantity, and hot-dip galvanized weight and cost of structural steel. This policy explains how the App handles your information.</p>
+  <div class="summary">The App does not collect, transmit, or share any personal data. All processing and storage happen locally on your device.</div>
+
+  <h3>1. Information we collect</h3>
+  <ul>
+    <li>The App does not collect any personal information.</li>
+    <li>The following settings are stored locally on your device (<code>%LOCALAPPDATA%\GWorks\AxialCoat\AxialCoat.ini</code>) solely to restore your workspace the next time you open the App:
+      <ul>
+        <li>Window position and size, splitter positions and the open tab</li>
+        <li>Display language, units, theme, section table (JIS / AISC) and the last folder used</li>
+      </ul>
+    </li>
+    <li>Only when you register a paint system preset, it (name, corrosivity category, durability and the values of each coat) is saved to <code>%LOCALAPPDATA%\GWorks\AxialCoat\paint_presets.json</code>.</li>
+    <li>Only when you choose "Save", your member list and paint and galvanizing settings are saved to an <code>*.axcoat</code> file at the location you choose.</li>
+    <li>These files never leave your device, and the developer cannot access them.</li>
+  </ul>
+
+  <h3>2. How we use information</h3>
+  <p>The locally stored data is used only to provide the App's functionality (saving and restoring your workspace, presets and projects). It is not used for any other purpose.</p>
+
+  <h3>3. Network and online services</h3>
+  <p>The App runs fully offline. The App itself makes no internet connections and contains no telemetry, analytics, advertising, tracking, or user accounts.</p>
+  <p>The Microsoft Store version asks the Windows Microsoft Store licensing APIs for the trial and purchase status. This check and any purchase are handled by Windows / Microsoft Store under the Microsoft Privacy Statement. The App adds none of your information to it.</p>
+  <p>Only when you choose "Write a review in Microsoft Store" in the ≡ menu, the App opens its page in the Microsoft Store app (anything after that is handled by Microsoft Store).</p>
+
+  <h3>4. Sharing with third parties</h3>
+  <p>Because the App collects no data, it does not sell, share, or disclose any data to third parties.</p>
+
+  <h3>5. Export and printing</h3>
+  <p>Copying results to the clipboard, saving CSV and saving projects run only when you explicitly request them, and write only to the location you choose. To view or print the take-off sheet, the App writes it as an HTML file to a temporary folder (<code>%TEMP%\AxialCoat</code>) and opens it in your default browser; this file makes no internet connections. The App does not transmit anything externally.</p>
+
+  <h3>6. Retention and deletion</h3>
+  <p>Local files remain until overwritten by your use of the App or deleted by you. Uninstalling the App and deleting <code>%LOCALAPPDATA%\GWorks\AxialCoat</code> and <code>%TEMP%\AxialCoat</code> removes all data the App stored (<code>*.axcoat</code> and CSV files you saved stay where you put them).</p>
+
+  <h3>7. Security</h3>
+  <p>Because data is stored only on your device, its safety depends on the security measures of your device.</p>
+
+  <h3>8. Children's privacy</h3>
+  <p>The App collects no information from any user, including children.</p>
+
+  <h3>9. Changes to this policy</h3>
+  <p>We may revise this policy as needed. The latest version is published on this page.</p>
+
+  <h3>10. Contact</h3>
+  <p>Questions about this policy or the App: <a href="mailto:G.Works.902@gmail.com">G.Works.902@gmail.com</a></p>
+
+  <footer>&copy; 2026 G-Works &mdash; Axial Coat</footer>
+</div>
+</body>
+</html>
